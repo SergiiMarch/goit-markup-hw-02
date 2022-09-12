@@ -1,3 +1,118 @@
+/* колір основного текста  #212121  */
+/* вторичний колір #757575 */
+/* билий колір основного текста #FFFFFF */
+/* акцент колір кнопкі #2196F3 */
+/* прозорий білий rgba(255, 255, 255, 0.6) */
+
+:root {
+  --primary-text-color: #212121;
+  --title-text-color: #757575;
+  --acent-color: #2196f3;
+  --white-text-color: #ffffff;
+  --transparent-white-color: rgba(255, 255, 255, 0.6);
+  --black-text-color: #000000;
+}
+
 body {
-  background-color: aquamarine;
+  color: #212121;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.list {
+  list-style: none;
+}
+
+/*HEADER*/
+
+.header-text {
+  color: var(--black-text-color);
+}
+.text-link {
+  color: var(--acent-color);
+}
+
+.item-link {
+  color: var(--primary-text-color);
+}
+
+.header-link,
+.current {
+  color: var(--acent-color);
+}
+.list-link {
+  color: var(--title-text-color);
+}
+.link-curret {
+  color: var(--acent-color);
+}
+
+/* Main hero */
+.container-content {
+  background: #2f303a;
+}
+.container-title {
+  color: var(--white-text-color);
+}
+.container-btn {
+  color: var(--white-text-color);
+  background-color: var(--acent-color);
+}
+
+/* Section Перевагі */
+.wrap-subtitle {
+}
+.wrap-text {
+  color: var(--title-text-color);
+}
+
+/* Section Чим займаємось */
+.box-title {
+}
+
+/* Section Команда */
+.list-title {
+}
+
+.list-text {
+  color: var(--title-text-color);
+}
+/* FOOTER */
+.footer {
+  background: #2f303a;
+}
+.text-list {
+  color: var(--acent-color);
+}
+.footer-link {
+  color: var(--white-text-color);
+}
+.box-link {
+  color: var(--white-text-color);
+}
+.link-tel {
+  color: var(--white-text-color);
+}
+.link-mail {
+  color: var(--white-text-color);
+}
+
+/* P O R T F O L I O */
+
+/* header */
+
+/* Main */
+
+.content-link {
+  color: var(--primary-text-color);
+}
+.content-link-current {
+  color: var(--acent-color);
+}
+.inner-title {
+}
+.inner-text {
+  color: var(--title-text-color);
 }
