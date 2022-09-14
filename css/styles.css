@@ -201,7 +201,7 @@ body {
 
 /* ------------------------------P O R T F O L I O ------------------*/
 
-/* header */
+/* ------------------------------header---------------------------- */
 
 /* ------------------------Main --------------------------------------------*/
 
@@ -216,10 +216,12 @@ body {
 }
 .content-link:hover,
 .content-link:focus {
-  color: var(--acent-color);
+  color: var(--white-text-color);
+  background-color: var(--acent-color);
 }
 .current {
-  color: var(--acent-color);
+  color: var(--white-text-color);
+  background-color: var(--acent-color);
 }
 /* -------------Section Перелік-------------------- */
 .inner-title {
