@@ -14,7 +14,9 @@
 }
 
 body {
+  font-family: "Roboto", sans-serif;
   color: #212121;
+  font-size: 14px;
 }
 
 .link {
@@ -25,9 +27,14 @@ body {
   list-style: none;
 }
 
-/*HEADER*/
+/*----------------------HEADER-------------------------------------*/
 
 .header-text {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
   color: var(--black-text-color);
 }
 .text-link {
@@ -35,51 +42,122 @@ body {
 }
 
 .item-link {
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+
   color: var(--primary-text-color);
 }
+.item-link:hover,
+.item-link:focus {
+  color: var(--acent-color);
+}
 
-.header-link,
-.current {
+.header-link {
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
   color: var(--acent-color);
 }
 .list-link {
+  font-style: normal;
+  font-weight: 500;
+
+  line-height: 1.14;
+  letter-spacing: 0.02em;
   color: var(--title-text-color);
 }
-.link-curret {
+.list-link:hover,
+.list-link:focus {
   color: var(--acent-color);
 }
 
-/* Main hero */
-.container-content {
+.link-curret {
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--title-text-color);
+}
+.link-curret:hover,
+.link-curret:focus {
+  color: var(--acent-color);
+}
+
+/* ------------Main hero ------------------*/
+.main-container {
   background: #2f303a;
 }
-.container-title {
+.main-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
   color: var(--white-text-color);
 }
-.container-btn {
+.main-btn {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  cursor: pointer;
   color: var(--white-text-color);
   background-color: var(--acent-color);
 }
-
-/* Section Перевагі */
-.wrap-subtitle {
+.main-btn:hover,
+.main-btn:focus {
+  color: var(--acent-color);
+  background-color: var(--white-text-color);
 }
-.wrap-text {
+
+/* -------------Section Перевагт------------- */
+.container-subtitle {
+  font-weight: 700;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--primary-text-color);
+}
+.container-text {
+  font-weight: 400;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
   color: var(--title-text-color);
 }
 
-/* Section Чим займаємось */
+/* ---------Section Чим займаємось------------ */
 .box-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
 }
 
-/* Section Команда */
+/* ----------------------Section Команда ---------------------------*/
 .list-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
 }
-
+.list-subtitle {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+}
 .list-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
   color: var(--title-text-color);
 }
-/* FOOTER */
+/* ------------------------------FOOTER---------------------------------- */
 .footer {
   background: #2f303a;
 }
@@ -87,32 +165,73 @@ body {
   color: var(--acent-color);
 }
 .footer-link {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
   color: var(--white-text-color);
 }
 .box-link {
-  color: var(--white-text-color);
-}
-.link-tel {
-  color: var(--white-text-color);
-}
-.link-mail {
+  font-weight: 400;
+  font-size: 14px;
+  font-style: normal;
+  line-height: 24px;
+  letter-spacing: 0.03em;
   color: var(--white-text-color);
 }
 
-/* P O R T F O L I O */
+.link-mail,
+.link-tel {
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+.link-mail:hover,
+.link-mail:focus {
+  color: var(--acent-color);
+}
+.link-tel:hover,
+.link-tel:focus {
+  color: var(--acent-color);
+}
+
+/* ------------------------------P O R T F O L I O ------------------*/
 
 /* header */
 
-/* Main */
+/* ------------------------Main --------------------------------------------*/
 
 .content-link {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  letter-spacing: 0.03em;
   color: var(--primary-text-color);
 }
-.content-link-current {
+.content-link:hover,
+.content-link:focus {
   color: var(--acent-color);
 }
+.current {
+  color: var(--acent-color);
+}
+/* -------------Section Перелік-------------------- */
 .inner-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
 }
 .inner-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
   color: var(--title-text-color);
 }
