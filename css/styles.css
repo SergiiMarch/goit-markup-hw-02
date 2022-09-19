@@ -80,7 +80,7 @@ body {
   color: var(--acent-color);
 }
 
-.link-curret {
+.link-item {
   font-style: normal;
   font-weight: 500;
   line-height: 1.14;
@@ -88,8 +88,8 @@ body {
   color: var(--title-text-color);
 }
 
-.link-curret:hover,
-.link-curret:focus {
+.link-item:hover,
+.link-item:focus {
   color: var(--acent-color);
 }
 
@@ -252,8 +252,7 @@ body {
 }
 
 .current {
-  color: var(--white-text-color);
-  background-color: var(--acent-color);
+  color: var(--acent-color);
 }
 
 /* -------------Section Перелік-------------------- */
